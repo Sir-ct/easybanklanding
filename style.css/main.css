@@ -110,7 +110,8 @@ nav.open ul li a{
     margin: 0 auto;
 }
 #maininfo h1{
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 40px;
     color: hsl(233, 26%, 24%);
 }
 #maininfo p{
@@ -136,6 +137,10 @@ nav.open ul li a{
 #choose-us-introtext{
     text-align: center;
 }
+#choose-us-introtext h2{
+    font-size: 35px;
+    font-weight: 500;
+}
 .choose-us-divs{
     margin-top: 30px;
     text-align: center;
@@ -147,6 +152,10 @@ nav.open ul li a{
 }
 #latestarticlescover{
     text-align: center;
+}
+#latestarticlescover h2{
+   font-size: 35px;
+   font-weight: 500;
 }
 .articledivs{
     width: 90%;
@@ -380,15 +389,13 @@ footer{
         margin-top: 20px;
         text-align: center;
     }
-    .requestinvite div{
-        width: 100%;
-        border-radius: 30px;
-        text-align: center;
-        margin: auto;
-        padding: 10px;
-        background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    .requestinvite{
+        width: 120px;
+        margin: 0;
     }
-    
+    footer .requestinvite{
+        margin: auto;
+    }
 }
 @media (min-width: 970px){
     #mainimage{
