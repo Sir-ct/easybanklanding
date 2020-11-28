@@ -50,6 +50,7 @@ nav.open ul{
 nav.open ul li{
     list-style-type: none;
     margin: 15px 0;
+    font-size: 18px;
 }
 nav.open ul li a{
     text-decoration: none;
@@ -145,6 +146,9 @@ nav.open ul li a{
     margin-top: 30px;
     text-align: center;
 }
+.choose-us-divs h3{
+    font-weight: 500;
+}
 
 /*latestarticles*/
 #latestarticles{
@@ -173,13 +177,14 @@ nav.open ul li a{
 }
 .articletext h3{
     color: hsl(233, 26%, 24%);
+    font-weight: 500;
 }
 .articletext h3:hover{
     color: hsl(136, 65%, 51%);
     cursor: pointer;
 }
 .articleimage img{
-    width: 100%;
+   width: 100%;
 }
 
 /*footer*/
@@ -285,13 +290,16 @@ footer{
      #afterhead{
         overflow-x: hidden;
     }
+    #mainsection{
+        height: 600px;
+    }
      #mainsectioncover{
          display: flex;
          flex-direction: row-reverse;
      }
      #mainimage{
          width: 60%;
-         height: 400px;
+         height: 600px;
          background-image: url("../images/bg-intro-desktop.svg");
          background-repeat: no-repeat;
          background-size: 120% 120%;
@@ -301,7 +309,7 @@ footer{
      }
      #mainimage img{
          position: relative;
-         width: 100%;
+         width: 120%;
          left: 15%;
          z-index: 1;
      }
@@ -337,6 +345,8 @@ footer{
          margin-bottom: 50px;
      }
     #latestarticlescover{
+        padding-top: 100px;
+        padding-bottom: 50px;
         width: 90%;
         text-align: left;
         margin: auto;
@@ -355,6 +365,12 @@ footer{
     .articledivs:nth-child(1){
         margin-left: 0;
     }
+    .articleimage img{
+        width: 100%;
+        height: 190px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+     }
     #footercover{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -397,7 +413,10 @@ footer{
         margin: auto;
     }
 }
-@media (min-width: 970px){
+@media (min-width: 900px){
+    #mainsection{
+        height: 500px;
+    }
     #mainimage{
         width: 60%;
         height: 400px;
@@ -406,7 +425,7 @@ footer{
     }
     #mainimage img{
         position: relative;
-        width: 90%;
+        width: 100%;
         left: 15%;
         z-index: 1;
     }
@@ -414,7 +433,7 @@ footer{
 @media (min-width: 1070px){
     #mainimage{
         width: 60%;
-        height: 690px;
+        height: 550px;
         background-image: url("../images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position-x: 5%;
@@ -422,7 +441,7 @@ footer{
     }
     #mainimage img{
         position: relative;
-        width: 110%;
+        width: 90%;
         left: 15%;
         z-index: 1;
     }
@@ -464,7 +483,7 @@ footer{
     }
     #mainimage{
         width: 60%;
-        height: 690px;
+        height: 550px;
         background-image: url("../images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position-x: 5%;
@@ -472,7 +491,7 @@ footer{
     }
     #mainimage img{
         position: relative;
-        width: 90%;
+        width: 80%;
         left: 15%;
         z-index: 1;
     }
